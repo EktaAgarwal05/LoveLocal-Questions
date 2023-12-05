@@ -1,0 +1,7 @@
+def calculate_last_word():
+    str1=input()
+    words=str1.split()
+    last_word=words[-1]
+    length=len(last_word)
+    print(length)
+calculate_last_words()
